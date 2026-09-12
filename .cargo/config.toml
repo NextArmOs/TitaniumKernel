@@ -1,0 +1,10 @@
+[build]
+target = "x86_64-unknown-none"
+
+[target.x86_64-unknown-none]
+rustflags = [
+    "-C", "link-arg=-Tarch/x86_64/linker.ld",
+]
+
+[run]
+command = "qemu-system-x86_64"
