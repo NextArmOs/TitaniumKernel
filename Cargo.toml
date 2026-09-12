@@ -1,6 +1,6 @@
 [package]
 name = "titanium-kernel"
-version = "0.03"
+version = "0.06"
 edition = "2021"
 
 [dependencies]
