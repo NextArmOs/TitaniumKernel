@@ -1,0 +1,8 @@
+[package]
+name = "titanium-kernel"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+x86_64 = "0.15.5"
+bootloader = "0.9.23"
