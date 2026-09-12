@@ -14,4 +14,8 @@ impl Realtek8153 {
     pub fn init(&mut self) {
         self.is_connected = true;
     }
+
+    pub fn get_mac(&self) -> [u8; 6] {
+        self.mac_address
+    }
 }
