@@ -57,8 +57,23 @@ int main() {
         std::system("clear");
         std::cout << TITANIUM_BG;
         
+        std::cout << WHITE_TEXT << R"(
+    _______________________
+    /   _________________   \
+    |  |     _______     |  |     RJ45 ETHERNET
+    |  | ___|       |___ |  | 
+    |  ||               ||  |
+    |  ||_______________||  |
+    |  |                 |  |
+    |  |  |||||||||||||  |  |
+    |  |  |||||||||||||  |  |
+    |  |________________|  |
+    \_______________________/
+ 
+          )" << RESET << TITANIUM_BG << "\n";
+
         std::cout << COPPER_TEXT << "==================================================" << RESET << TITANIUM_BG << "\n";
-        std::cout << GOLD_TEXT   << "  PLATINUM-LINK_NETWORK v0.3                         " << RESET << TITANIUM_BG << "\n";
+        std::cout << GOLD_TEXT   << "           PlatinumLinkNETWORK v0.0.4             " << RESET << TITANIUM_BG << "\n";
         std::cout << COPPER_TEXT << "==================================================" << RESET << TITANIUM_BG << "\n";
         std::printf(WHITE_TEXT   " %-15s | %-14s | %-14s\n", "Interface", "Download (RX)", "Upload (TX)");
         std::cout << COPPER_TEXT << "--------------------------------------------------" << RESET << TITANIUM_BG << "\n";
