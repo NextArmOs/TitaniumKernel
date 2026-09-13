@@ -6,7 +6,7 @@ get_all_stats() {
 
 clear
 echo "=================================================="
-echo "  Titanium Multi-Network Monitor v0.2 (Shell)     "
+echo "            PlatinumLinkNETWORK v0.2              "
 echo "=================================================="
 
 declare -A RX_OLD
@@ -24,7 +24,7 @@ sleep 1
 while true; do
     clear
     echo "=================================================="
-    echo "  Titanium Multi-Network Monitor v0.2 (Shell)     "
+    echo "  PlatinumLinkNETWORK   v0.2  "
     echo "=================================================="
     printf " %-15s | %-14s | %-14s\n" "Ethernet" "DOWNLOAD(RX)" "UPLOAD(TX)"
     echo "--------------------------------------------------"
